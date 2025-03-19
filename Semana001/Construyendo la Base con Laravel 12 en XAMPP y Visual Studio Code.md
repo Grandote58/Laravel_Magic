@@ -1,6 +1,7 @@
 
 
-![logo](C:\Users\juanc\OneDrive\Escritorio\CursoLaravel12\Semana01\LogoGR58_1.png)
+![logo](https://github.com/Grandote58/Laravel_Magic/blob/main/Img/LogoGR58_1.png)
+
 
 
 
