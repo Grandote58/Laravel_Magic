@@ -197,6 +197,16 @@ Desde `phpMyAdmin` o usando Tinker:
 ]);
 ```
 
+### ✅ **Ejecutar Laravel y Verificar que Funciona**
+
+1️⃣ **Levantar el servidor de Laravel:**
+
+```shell
+php artisan serve
+```
+
+2️⃣ **Abrir el navegador en `http://127.0.0.1:8000/`** para ver la página de inicio.
+
 ## 📝 **Resumen de Aprendizajes**
 
 ✅ Creaste una **base de datos** real conectada con Laravel.

@@ -41,8 +41,18 @@
 ### ✅ **Paso 1: Crear la Base de Datos en phpMyAdmin**
 
 1. Abre `http://localhost/phpmyadmin` desde tu navegador.
+
 2. Haz clic en "Nueva" y nombra tu base de datos: `techcorp_db`.
+
 3. Deja el cotejamiento por defecto (`utf8mb4_unicode_ci`) y presiona “Crear”.
+
+   
+
+    ✔ **Instalar Proyecto *: `composer create-project --prefer-dist laravel/laravel TechCorpPortal`
+
+    ✔ **Actualizar Laravel**: `composer update`
+
+   
 
 ### ✅ **Paso 2: Conectar Laravel con la Base de Datos**
 
@@ -156,6 +166,16 @@ class EmpleadoController extends Controller
 <p><strong>Cargo:</strong> {{ $empleado->cargo }}</p>
 <a href="/empleados">← Volver al listado</a>
 ```
+
+### ✅ **Ejecutar Laravel y Verificar que Funciona**
+
+1️⃣ **Levantar el servidor de Laravel:**
+
+```shell
+php artisan serve
+```
+
+2️⃣ **Abrir el navegador en `http://127.0.0.1:8000/`** para ver la página de inicio.
 
 ## 🎓 **Conclusión de la Semana**
 
